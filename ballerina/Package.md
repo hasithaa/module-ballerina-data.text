@@ -1,12 +1,5 @@
 # Ballerina Text Data Library
 
-[![Build](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/build.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/ballerina-platform/module-ballerina-data.text/branch/main/graph/badge.svg)](https://codecov.io/gh/ballerina-platform/module-ballerina-data.text)
-[![Trivy](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/trivy-scan.yml)
-[![GraalVM Check](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/build-with-bal-test-graalvm.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerina-data.text/actions/workflows/build-with-bal-test-graalvm.yml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerina-data.text.svg)](https://github.com/ballerina-platform/module-ballerina-data.text/commits/master)
-[![Github issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-standard-library/module/data.text.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-standard-library/labels/module%2Fdata.text)
-
 The Ballerina Text Data Library is a comprehensive toolkit designed to facilitate the handling and manipulation of text data within Ballerina applications. It streamlines the process of converting text data to native Ballerina data types, enabling developers to work with text content seamlessly and efficiently.
 
 ## Features

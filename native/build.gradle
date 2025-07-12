@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+}
+
+description = 'Ballerina Text Data Native Implementation'
+
+dependencies {
+    implementation 'org.ballerinalang:ballerina-runtime:2201.12.0'
+    implementation 'org.ballerinalang:ballerina-lang:2201.12.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    
+    testImplementation 'org.testng:testng:7.4.0'
+    testImplementation 'org.ballerinalang:ballerina-test-utils:2201.12.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+description = 'Ballerina Text Data Compiler Plugin Tests'
+
+dependencies {
+    testImplementation project(':compiler-plugin')
+    testImplementation 'org.ballerinalang:ballerina-lang:2201.12.0'
+    testImplementation 'org.ballerinalang:ballerina-tools-api:2201.12.0'
+    testImplementation 'org.ballerinalang:ballerina-parser:2201.12.0'
+    testImplementation 'org.testng:testng:7.4.0'
+    testImplementation 'org.ballerinalang:ballerina-test-utils:2201.12.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
